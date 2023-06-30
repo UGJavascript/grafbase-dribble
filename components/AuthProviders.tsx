@@ -13,7 +13,11 @@ type Provider = {
 type Providers = Record<string, Provider>;
 
 const AuthProviders = () => {
-  return <div>AuthProviders</div>;
+  return (
+    <div>
+      <p>AuthProviders</p>
+    </div>
+  );
 };
 
 export default AuthProviders;
